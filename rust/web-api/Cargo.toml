@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["Anton (uuttff8) Kuzmin <sassanid18@gmail.com>"]
 
 [dependencies]
+rspotify = "0.2.5"

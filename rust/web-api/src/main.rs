@@ -1,3 +1,5 @@
+mod authorization;
+
 fn main() {
-    println!("Hello, world!");
+    authorization::spotify_auth();
 }
