@@ -1,0 +1,5 @@
+rust/web-api/Cargo.lock
+rust/web-api/target/
+swift/.DS_Store
+rust/.DS_Store
+.DS_Store

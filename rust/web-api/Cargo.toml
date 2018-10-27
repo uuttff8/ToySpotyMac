@@ -1,0 +1,6 @@
+[package]
+name = "web-api"
+version = "0.1.0"
+authors = ["Anton (uuttff8) Kuzmin <sassanid18@gmail.com>"]
+
+[dependencies]
