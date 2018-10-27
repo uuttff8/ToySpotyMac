@@ -1,3 +1,5 @@
+extern crate rspotify;
+
 mod authorization;
 
 fn main() {
