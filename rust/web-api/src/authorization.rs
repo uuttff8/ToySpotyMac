@@ -20,4 +20,6 @@ pub fn spotify_auth() {
         }
         None => println!("auth failed"),
    };
+
+   
 }

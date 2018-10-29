@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class LoginViewController: NSViewController {
 
     @IBOutlet weak var loginSpotify: NSButton!
     
@@ -17,6 +17,8 @@ class ViewController: NSViewController {
         
         loginSpotify.layer?.backgroundColor = (NSColor.green as! CGColor);
         // Do any additional setup after loading the view.
+        
+        
     }
 
     override var representedObject: Any? {
@@ -25,7 +27,8 @@ class ViewController: NSViewController {
 
         }
     }
-
+    
+    
 
 }
 

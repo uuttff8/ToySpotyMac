@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		4E45AF46211B83FC00DD50FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E45AF45211B83FC00DD50FC /* AppDelegate.swift */; };
-		4E45AF48211B83FD00DD50FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E45AF47211B83FD00DD50FC /* ViewController.swift */; };
+		4E45AF48211B83FD00DD50FC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E45AF47211B83FD00DD50FC /* LoginViewController.swift */; };
 		4E45AF4A211B840100DD50FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E45AF49211B840100DD50FC /* Assets.xcassets */; };
 		4E45AF4D211B840100DD50FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E45AF4B211B840100DD50FC /* Main.storyboard */; };
 		4E45AF59211B840100DD50FC /* ToySpotyMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E45AF58211B840100DD50FC /* ToySpotyMacTests.swift */; };
 		4E45AF64211B840100DD50FC /* ToySpotyMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E45AF63211B840100DD50FC /* ToySpotyMacUITests.swift */; };
+		4E57FCCE2185A7590055D8A2 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57FCCD2185A7590055D8A2 /* MainWindowController.swift */; };
+		4E57FCD02185AF010055D8A2 /* LoginSuccesfulSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57FCCF2185AF010055D8A2 /* LoginSuccesfulSegue.swift */; };
+		4E57FCD421860BA90055D8A2 /* LoginWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57FCD321860BA90055D8A2 /* LoginWindowController.swift */; };
+		4E68C3C32186117300E334CF /* MenuViewConrtoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E68C3C12186117300E334CF /* MenuViewConrtoller.swift */; };
+		4ED79D2F218761E40052C07C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED79D2E218761E40052C07C /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,7 @@
 /* Begin PBXFileReference section */
 		4E45AF42211B83FC00DD50FC /* ToySpotyMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToySpotyMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E45AF45211B83FC00DD50FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4E45AF47211B83FD00DD50FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E45AF47211B83FD00DD50FC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4E45AF49211B840100DD50FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E45AF4C211B840100DD50FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E45AF4E211B840100DD50FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +51,11 @@
 		4E45AF5F211B840100DD50FC /* ToySpotyMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToySpotyMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E45AF63211B840100DD50FC /* ToySpotyMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToySpotyMacUITests.swift; sourceTree = "<group>"; };
 		4E45AF65211B840100DD50FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E57FCCD2185A7590055D8A2 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		4E57FCCF2185AF010055D8A2 /* LoginSuccesfulSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccesfulSegue.swift; sourceTree = "<group>"; };
+		4E57FCD321860BA90055D8A2 /* LoginWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWindowController.swift; sourceTree = "<group>"; };
+		4E68C3C12186117300E334CF /* MenuViewConrtoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewConrtoller.swift; sourceTree = "<group>"; };
+		4ED79D2E218761E40052C07C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +106,9 @@
 		4E45AF44211B83FC00DD50FC /* ToySpotyMac */ = {
 			isa = PBXGroup;
 			children = (
+				4E68C3C52186118600E334CF /* Model */,
+				4E68C3C62186119400E334CF /* Controller */,
 				4E45AF45211B83FC00DD50FC /* AppDelegate.swift */,
-				4E45AF47211B83FD00DD50FC /* ViewController.swift */,
 				4E45AF49211B840100DD50FC /* Assets.xcassets */,
 				4E45AF4B211B840100DD50FC /* Main.storyboard */,
 				4E45AF4E211B840100DD50FC /* Info.plist */,
@@ -122,6 +133,58 @@
 				4E45AF65211B840100DD50FC /* Info.plist */,
 			);
 			path = ToySpotyMacUITests;
+			sourceTree = "<group>";
+		};
+		4E68C3C52186118600E334CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E68C3C62186119400E334CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E57FCCD2185A7590055D8A2 /* MainWindowController.swift */,
+				4E68C3CA218611F200E334CF /* Login */,
+				4E68C3C9218611CC00E334CF /* Segues */,
+				4ED79D30218761E90052C07C /* Main */,
+				4E68C3C8218611B800E334CF /* Menu */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E68C3C8218611B800E334CF /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				4E68C3C12186117300E334CF /* MenuViewConrtoller.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		4E68C3C9218611CC00E334CF /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				4E57FCCF2185AF010055D8A2 /* LoginSuccesfulSegue.swift */,
+			);
+			path = Segues;
+			sourceTree = "<group>";
+		};
+		4E68C3CA218611F200E334CF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4E57FCD321860BA90055D8A2 /* LoginWindowController.swift */,
+				4E45AF47211B83FD00DD50FC /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4ED79D30218761E90052C07C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4ED79D2E218761E40052C07C /* MainViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,8 +317,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E45AF48211B83FD00DD50FC /* ViewController.swift in Sources */,
+				4ED79D2F218761E40052C07C /* MainViewController.swift in Sources */,
+				4E45AF48211B83FD00DD50FC /* LoginViewController.swift in Sources */,
 				4E45AF46211B83FC00DD50FC /* AppDelegate.swift in Sources */,
+				4E57FCD421860BA90055D8A2 /* LoginWindowController.swift in Sources */,
+				4E68C3C32186117300E334CF /* MenuViewConrtoller.swift in Sources */,
+				4E57FCCE2185A7590055D8A2 /* MainWindowController.swift in Sources */,
+				4E57FCD02185AF010055D8A2 /* LoginSuccesfulSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
