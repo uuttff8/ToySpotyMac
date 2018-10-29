@@ -15,12 +15,13 @@ class LoginViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        loginSpotify.layer?.backgroundColor = (NSColor.green as! CGColor);
-        // Do any additional setup after loading the view.
-        
-        
     }
-
+    
+    override func viewDidAppear() {
+        loginSpotify.layer?.backgroundColor = (NSColor.green as! CGColor);
+        view.layer?.backgroundColor = CGColor.black
+    }
+    
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.

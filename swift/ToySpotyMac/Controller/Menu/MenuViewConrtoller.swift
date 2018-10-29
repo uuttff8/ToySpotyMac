@@ -10,9 +10,11 @@ import Cocoa
 
 class MenuViewConrtoller: NSViewController {
 
+    @IBOutlet weak var tableView: NSTableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        tableView.headerView = nil
         
     }
 }

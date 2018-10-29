@@ -10,8 +10,10 @@ import Cocoa
 
 class MainViewController: NSViewController {
 
+    @IBOutlet weak var tableView: NSTableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.headerView = nil
     }
     
 }

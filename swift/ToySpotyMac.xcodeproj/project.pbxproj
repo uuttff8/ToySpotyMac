@@ -145,7 +145,7 @@
 		4E68C3C62186119400E334CF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4E57FCCD2185A7590055D8A2 /* MainWindowController.swift */,
+				4ED79D31218776240052C07C /* Windows */,
 				4E68C3CA218611F200E334CF /* Login */,
 				4E68C3C9218611CC00E334CF /* Segues */,
 				4ED79D30218761E90052C07C /* Main */,
@@ -173,7 +173,6 @@
 		4E68C3CA218611F200E334CF /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				4E57FCD321860BA90055D8A2 /* LoginWindowController.swift */,
 				4E45AF47211B83FD00DD50FC /* LoginViewController.swift */,
 			);
 			path = Login;
@@ -185,6 +184,15 @@
 				4ED79D2E218761E40052C07C /* MainViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		4ED79D31218776240052C07C /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				4E57FCCD2185A7590055D8A2 /* MainWindowController.swift */,
+				4E57FCD321860BA90055D8A2 /* LoginWindowController.swift */,
+			);
+			path = Windows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
